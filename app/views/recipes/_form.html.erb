@@ -3,12 +3,6 @@
   <%= f.text_field :title %>
 
   <%= f.fields_for :ingredients do |i| %>
-    <%= i.label :ingredient_1 %>
-    <%= i.text_field :ingredient_1 %>
-
-    <%= i.label :ingredient_2 %>
-    <%= i.text_field :ingredient_2 %>
-
     <%= i.label :name %>
     <%= i.text_field :name %>
 
